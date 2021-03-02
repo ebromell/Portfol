@@ -112,10 +112,10 @@ main a:link {
 main a:visited {
   color: #38786a;
 }
-a:hover {
+main a:hover {
   color: #ad785a;
 }
-a:active {
+main a:active {
   color: #403933;
 }
 
