@@ -1,0 +1,210 @@
+body {
+  justify-content: center;
+  min-height: 100vh;
+  text-shadow: 5px 4px 8px rgba(238, 221, 208, 0.6);
+  background-color: #89a4d2;
+  margin: 0;
+}
+
+header {
+  flex-direction: row-reverse;
+  background-color: #1e1f26;
+  margin-bottom: 40px;
+}
+
+.logo {
+  font-family: "Waiting for the Sunrise", cursive;
+  font-size: 72px;
+  font-weight: 900;
+  color: #ad785a;
+  text-orientation: center;
+  margin: 0;
+  padding: 20px;
+}
+
+header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 0;
+}
+
+header nav ul li {
+  list-style-type: none;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0 20px 0 0;
+  font-family: "Annie Use Your Telescope", cursive;
+}
+
+header nav ul li a:hover {
+  color: #bdbdbd;
+}
+
+main {
+  margin: 0;
+  padding: 20px 0 0 0;
+}
+
+section {
+  margin-bottom: 100px;
+}
+
+section.dark-background {
+  color: white;
+  background-color: #1e1f26;
+  border: 5px hidden black;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+footer {
+  background-color: #1e1f26;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: strong;
+  font-family: "Annie Use Your Telescope", cursive;
+  font-weight: 400;
+  color: #403933;
+}
+
+h2 {
+  color: #403933;
+  font-size: 26px;
+  font-family: "Annie Use Your Telescope", cursive;
+  font-weight: 400;
+  margin: 0 0 50px;
+}
+
+h3 {
+  font-size: 18px;
+  font-family: "Annie Use Your Telescope", cursive;
+  font-weight: 500;
+}
+
+p {
+  color: 1e1f26;
+  font-family: "Waiting for the Sunrise", cursive;
+  line-height: 1.5em;
+  margin-bottom: 0;
+}
+
+main a {
+  font-weight: 1000;
+  text-decoration: none;
+}
+
+main a:link {
+  color: #38786a;
+}
+a:visited {
+  color: #38786a;
+}
+a:hover {
+  color: #ad785a;
+}
+a:active {
+  color: #403933;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer p {
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.bears {
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqCy-_QkEZlpDXG_vciiZf7rJW6APNILSbZw&usqp=CAU");
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+  box-shadow: 10px 6px 20px 0px rgba(91, 108, 99, 0.9);
+  width: 100%;
+  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main img {
+  box-shadow: 10px 6px 20px 0px rgba(91, 108, 99, 0.9);
+  height: auto;
+  width: 50%;
+}
+
+.img-fix {
+  display: block;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  flex: 1;
+  margin: 0;
+}
+.item-about {
+  margin-left: auto; 
+  margin-right: auto;
+  display: block;
+  justify-content: space-around;
+}
+.item-double {
+  flex: 1;
+  margin: 0;
+}
+
+.form_group field {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="text"]:focus {
+  border: 1px solid #555;
+}
+
+@media all and (min-width: 800px) {
+  section {
+    padding: 0 10%;
+  }
+  .group {
+    flex-direction: row;
+  }
+}
+
+@media all and (min-width: 600px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .logo {
+    margin: 14px 0 14px 20px;
+    padding-top: 0;
+    font-size: 42px;
+  }
+
+  header nav {
+    margin-top: 14px;
+  }
+}
