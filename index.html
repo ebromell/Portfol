@@ -22,17 +22,17 @@
     <header>
       <div class="logo">Eric Bromell</div>
       <nav>
-        <ul id="menu">
+        <ol id="menu">
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#contact">Contact</a></li>
-        </ul>
+        </ol>
       </nav>
     </header>
 
     <main class="container">
-      <section id="about">
+      <section id="home">
         <div class="group">
           <div class="item item-double">
             <div class="item">
@@ -52,7 +52,7 @@
         </div>
       </section>
 
-      <section class="dark-background">
+      <section id= "about" class="dark-background">
         <div class="group">
           <div class="item-about">
             <div class="item item-double">
@@ -129,26 +129,26 @@
 
       <section id="portfolio">
         <div class="bears">
-          <h2>Portfolio</h2>
+          <h1>Portfolio</h1>
         </div>
         <div class="group">
           <div class="item item-double">
             <img
               src="https://media.giphy.com/media/hTyrioyiYLOUZswY4X/giphy.gif"
-              alt="app"
+              alt="application 1"
               class="img-fix"
             />
-            <h3>App</h3>
-            <p>description</p>
+            <h2>App</h2>
+            <h3>description</h3>
           </div>
           <div class="item">
             <img
               src="https://media.giphy.com/media/AC3vPDunOc7zDR0ISX/giphy.gif"
-              alt="app"
+              alt="application 2"
               class="img-fix"
             />
-            <h3>App</h3>
-            <p>description</p>
+            <h2>App</h>
+            <h3>description</h3>
           </div>
         </div>
       </section>
@@ -163,10 +163,10 @@
               target="_blank"
               method="POST"
             >
-              <h1>Send me a message here</h1>
+              
               <div class="form_group field">
                 <input
-                  class="form__field"
+                  type ="text"
                   placeholder="Name"
                   name="name"
                   id="user-name"
@@ -176,7 +176,7 @@
 
               <div class="form_group field">
                 <input
-                  class="form__field"
+                  type="form__field"
                   placeholder="Email"
                   name="email"
                   id="user-email"
@@ -186,16 +186,16 @@
 
               <div class="form_group field">
                 <input
-                  class="form__field"
+                  type="form__field"
                   placeholder="Message"
                   name="message"
                   id="user-message"
                   required
-                />
+                /></div>
                 <div>
                   <button type="submit">Submit</button>
                 </div>
-              </div>
+              
             </form>
           </div>
           <div class="item item-double">

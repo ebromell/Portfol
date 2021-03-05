@@ -2,13 +2,13 @@ body {
   justify-content: center;
   min-height: 100vh;
   text-shadow: 5px 4px 8px rgba(238, 221, 208, 0.6);
-  background-color: #89a4d2;
+  background-color: #9EA3B0;
   margin: 0;
 }
 
 header {
   flex-direction: row-reverse;
-  background-color: #1e1f26;
+  background-color: #0D1F2D;
   margin-bottom: 40px;
 }
 
@@ -16,7 +16,7 @@ header {
   font-family: "Waiting for the Sunrise", cursive;
   font-size: 72px;
   font-weight: 900;
-  color: #ad785a;
+  color: #FAE1DF;
   text-orientation: center;
   margin: 0;
   padding: 20px;
@@ -28,24 +28,24 @@ header nav {
   justify-content: center;
 }
 
-header nav ul {
+header nav ol {
   display: flex;
   flex-direction: row;
   padding-bottom: 0;
 }
 
-header nav ul li {
+header nav ol li {
   list-style-type: none;
 }
 
-header nav ul li a {
-  color: #fff;
+header nav ol li a {
+  color: #FAE1DF;
   text-decoration: none;
   padding: 0 20px 0 0;
   font-family: "Annie Use Your Telescope", cursive;
 }
 
-header nav ul li a:hover {
+header nav ol li a:hover {
   color: #bdbdbd;
 }
 
@@ -59,43 +59,44 @@ section {
 }
 
 section.dark-background {
-  color: white;
-  background-color: #1e1f26;
+  color: FAE1DF;
+  background-color: #0D1F2D;
   border: 5px hidden black;
   display: flex;
   flex-wrap: wrap;
 }
 
 footer {
-  background-color: #1e1f26;
+  background-color: #0D1F2D;
   margin-top: 20px;
   margin-bottom: 0;
 }
 
 h1 {
-  font-size: 28px;
+  font-size: 40px;
   font-weight: strong;
   font-family: "Annie Use Your Telescope", cursive;
   font-weight: 400;
-  color: #403933;
+  color: #0D1F2D;
 }
 
 h2 {
-  color: #403933;
-  font-size: 26px;
+  color: #0D1F2D;
+  font-size: 35px;
   font-family: "Annie Use Your Telescope", cursive;
   font-weight: 400;
   margin: 0 0 50px;
 }
 
 h3 {
-  font-size: 18px;
+  font-size: 25px;
   font-family: "Annie Use Your Telescope", cursive;
   font-weight: 500;
 }
 
 p {
-  color: 1e1f26;
+  color: #FAE1DF;
+  font-size: 20px;
   font-family: "Waiting for the Sunrise", cursive;
   line-height: 1.5em;
   margin-bottom: 0;
